@@ -7,6 +7,12 @@ h1{
     justify-content: center;
 }
 
+h2{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .image1{
     display: flex;
     align-items: center;
