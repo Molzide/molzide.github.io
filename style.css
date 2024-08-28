@@ -6,3 +6,9 @@ h1{
     align-items: center;
     justify-content: center;
 }
+
+.image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
