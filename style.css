@@ -1,7 +1,6 @@
 h1{
     font-weight: normal;
-    font-family: "OCR A Std, monospace";
-    color: #ffffff;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,11 +12,21 @@ h2{
     align-items: center;
     justify-content: center;
 }
-.image1{
+
+.discordEmplacement{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.discord{
+    border-radius: 12px !important;
+    border: 0;
+    color: white;
+    padding: 20px;
+    margin: 4px 2px;
+}
+
 body{
-    background-color: rgba(0, 0, 0, 0.905);
+    background: linear-gradient(to right, #4c52b399, #0eb757);
+    font-family: "Lucida Console", "Courier New", monospace;
 }
