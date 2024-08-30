@@ -18,15 +18,82 @@ h2{
     align-items: center;
     justify-content: center;
 }
+
+.youtubeLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    transform: scale(2);
+    transform-origin: 0 0;
+    width: 50%;
+  }
+
 .discord{
     border-radius: 12px !important;
     border: 0;
     color: white;
-    padding: 20px;
+    padding: 10px 20px;
     margin: 4px 2px;
+    cursor: pointer;
+}
+
+.discord img.btn-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.discord span {
+    display: inline-block;
+}
+
+.youtube{
+    border-radius: 12px !important;
+    border: 0;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.youtube img.btn-icon2 {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.youtube span {
+    display: inline-block;
+}
+
+.container{
+    width: 100%; 
+    height: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-image: url("background.gif");
+    margin: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(6, 13, 220, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 body{
-    background: linear-gradient(to right, #4c52b399, #0eb757);
-    font-family: "Lucida Console", "Courier New", monospace;
+    background: linear-gradient(#e66465, #9198e5);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Couvre toute la page */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Pas de répétition */
+    background-attachment: fixed;
 }
