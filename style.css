@@ -1,12 +1,13 @@
 h1{
-    font-weight: normal;
-    color: white;
+    font-weight: bold;
+    color: rgb(255, 235, 59);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 h2{
+    font-weight: normal;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -25,60 +26,62 @@ h2{
     justify-content: center;
 }
 
-html {
-    transform: scale(2);
-    transform-origin: 0 0;
-    width: 50%;
-  }
-
 .discord{
     border-radius: 12px !important;
     border: 0;
     color: white;
     padding: 10px 20px;
+    width: 300px;
+    height: 100px;
     margin: 4px 2px;
     cursor: pointer;
 }
 
 .discord img.btn-icon {
-    width: 20px;
-    height: 20px;
+    width: 90px;
+    height: 90px;
     margin-right: 10px;
     vertical-align: middle;
 }
 
 .discord span {
     display: inline-block;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 28px;
 }
 
 .youtube{
     border-radius: 12px !important;
     border: 0;
     color: white;
+    width: 300px;
+    height: 100px;
     padding: 10px 20px;
     margin: 4px 2px;
     cursor: pointer;
 }
 
 .youtube img.btn-icon2 {
-    width: 20px;
-    height: 20px;
+    width: 90px;
+    height: 90px;
     margin-right: 10px;
     vertical-align: middle;
 }
 .youtube span {
     display: inline-block;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 28px;
 }
 
 .container{
-    width: 100%; 
-    height: 100%;
+    width: 50%; 
+    height: 50%;
     font-family: "Lucida Console", "Courier New", monospace;
     background-image: url("background.gif");
     margin: 0;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(6, 13, 220, 0.5);
+    box-shadow: 0 0 20px rgb(255, 235, 59);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,8 +95,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover; /* Couvre toute la page */
-    background-position: center; /* Centre l'image */
-    background-repeat: no-repeat; /* Pas de répétition */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
