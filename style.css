@@ -73,9 +73,22 @@ h2{
     font-size: 28px;
 }
 
+.version {
+    justify-content: right;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #ffeb3b;
+    background: linear-gradient(#595959, #000000);
+    border-radius: 20px;
+    box-shadow: white;
+    width: 46px; /* Mettre à jour lorsque la version possède un caractère supplémentaire */
+}
+
 .container{
-    width: 50%; 
-    height: 50%;
+    width: 70%; 
+    height: 70%;
     font-family: "Lucida Console", "Courier New", monospace;
     background-image: url("background.gif");
     margin: 0;
@@ -88,7 +101,7 @@ h2{
 }
 
 body{
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#e66465, #fff700);
     height: 100%;
     margin: 0;
     padding: 0;
