@@ -88,8 +88,8 @@ h2{
 }
 
 .container{
-    width: 80%; 
-    height: 80%;
+    width: 90%; 
+    height: 90%;
     font-family: "Lucida Console", "Courier New", monospace;
     background-image: url("background.gif");
     margin: 0;
