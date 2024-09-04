@@ -86,8 +86,6 @@ h2{
     font-family: "Lucida Console", "Courier New", monospace;
     position: fixed;
     font-size: 20px;
-    bottom: 0;
-    left: 0;
     color: rgb(255, 235, 59);
     background: rgb(154, 59, 255);
     border-radius: 20px;
@@ -122,6 +120,17 @@ footer {
         height: 15px;
         width: 32px; /* Mettre à jour lorsque la version possède un caractère supplémentaire #TELEPHONE# */
         font-size: 10px; /* idem */
+        justify-content: right;
+        font-family: "Lucida Console", "Courier New", monospace;
+        position: fixed;
+        color: rgb(255, 235, 59);
+        background: rgb(154, 59, 255);
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgb(154, 59, 255);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
 }
 
