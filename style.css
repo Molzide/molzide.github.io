@@ -6,6 +6,14 @@ h1{
     justify-content: center;
 }
 
+.magiclogopng {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
 h2{
     font-weight: normal;
     color: #ffffff;
@@ -108,7 +116,12 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .footer-menu {
-        gap: 20px; /* Boutons ajustés pour téléphone */
+        gap: 20px; /* Boutons du menu ajustés pour téléphone */
+    }
+    .version{
+        height: 15px;
+        width: 32px; /* Mettre à jour lorsque la version possède un caractère supplémentaire #TELEPHONE# */
+        font-size: 10px; /* idem */
     }
 }
 
