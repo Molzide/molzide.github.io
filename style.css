@@ -60,10 +60,12 @@ h2{
     height: 100px;
     margin: 4px 2px;
     cursor: pointer;
-    transition: background-color 0.5s ease-out;
+    transition: background-color 0.3s ease-out, width 0.3s ease, height 0.3s ease;
 }
 .discord:hover {
     background-color: rgba(28, 28, 89, 0.91);
+    width: 330px;
+    height: 110px;
 }
 .discord img.btn-icon {
     width: 90px;
@@ -89,10 +91,12 @@ h2{
     padding: 10px 20px;
     margin: 4px 2px;
     cursor: pointer;
-    transition: background-color 0.5s ease-out;
+    transition: background-color 0.3s ease-out, width 0.3s ease, height 0.3s ease;
 }
 .youtube:hover {
     background-color: rgba(88, 11, 11, 0.906);
+    width: 330px;
+    height: 110px;
 }
 
 .youtube img.btn-icon2 {
@@ -166,18 +170,19 @@ footer {
     font-family: "Lucida Console", "Courier New", monospace;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 16px;
     box-shadow: 0 0 20px rgb(154, 59, 255);
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, font-size 0.3s, border-radius 0.2s ease, border 0.3s ease;
     margin: 0 10px;  
 }
 
 .menu-button:hover {
     background-color: rgb(72, 27, 121);
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgb(72, 27, 121);
+    border-radius: 25px;
+    box-shadow: 4px 4px 20px rgb(126, 2, 85);
+    font-size: 18px;
 }
 
 .menu-button:active {
