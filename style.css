@@ -5,7 +5,9 @@ h1{
     align-items: center;
     justify-content: center;
 }
-
+.helas{
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
 .magiclogopng {
     width: 90px;
     height: 90px;
@@ -48,6 +50,8 @@ h2{
 }
 
 .discord{
+    background-color: rgba(44, 44, 137, 0.91);
+    box-shadow: 0 0 20px rgb(44, 44, 137);
     border-radius: 12px !important;
     border: 0;
     color: white;
@@ -56,8 +60,11 @@ h2{
     height: 100px;
     margin: 4px 2px;
     cursor: pointer;
+    transition: background-color 0.5s ease-out;
 }
-
+.discord:hover {
+    background-color: rgba(28, 28, 89, 0.91);
+}
 .discord img.btn-icon {
     width: 90px;
     height: 90px;
@@ -72,6 +79,8 @@ h2{
 }
 
 .youtube{
+    background-color: rgba(148, 18, 18, 0.906);
+    box-shadow: 0 0 20px rgb(148, 18, 18);
     border-radius: 12px !important;
     border: 0;
     color: white;
@@ -80,6 +89,10 @@ h2{
     padding: 10px 20px;
     margin: 4px 2px;
     cursor: pointer;
+    transition: background-color 0.5s ease-out;
+}
+.youtube:hover {
+    background-color: rgba(88, 11, 11, 0.906);
 }
 
 .youtube img.btn-icon2 {
