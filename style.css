@@ -60,10 +60,12 @@ h2{
     height: 100px;
     margin: 4px 2px;
     cursor: pointer;
-    transition: background-color 0.3s ease-out, width 0.3s ease, height 0.3s ease;
+    transition: background-color 0.3s ease-out, width 0.3s ease, height 0.3s ease, box-shadow 0.5s ease;
+    margin-bottom: 25px;
 }
 .discord:hover {
     background-color: rgba(28, 28, 89, 0.91);
+    box-shadow: 10px 10px 1px rgb(44, 44, 137);
     width: 330px;
     height: 110px;
 }
@@ -72,6 +74,11 @@ h2{
     height: 90px;
     margin-right: 10px;
     vertical-align: middle;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+.discord:hover img.btn-icon {
+    width: 100px;
+    height: 100px;
 }
 
 .discord span {
@@ -91,10 +98,12 @@ h2{
     padding: 10px 20px;
     margin: 4px 2px;
     cursor: pointer;
-    transition: background-color 0.3s ease-out, width 0.3s ease, height 0.3s ease;
+    transition: background-color 0.3s ease-out, width 0.3s ease, height 0.3s ease, box-shadow 0.5s ease;
+    margin-bottom: 25px;
 }
 .youtube:hover {
     background-color: rgba(88, 11, 11, 0.906);
+    box-shadow: 10px 10px 1px rgb(148, 18, 18);
     width: 330px;
     height: 110px;
 }
@@ -104,7 +113,13 @@ h2{
     height: 90px;
     margin-right: 10px;
     vertical-align: middle;
+    transition: width 0.3s ease, height 0.3s ease;
 }
+.youtube:hover img.btn-icon2 {
+    width: 100px;
+    height: 100px;
+}
+
 .youtube span {
     display: inline-block;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -174,7 +189,7 @@ footer {
     cursor: pointer;
     font-size: 16px;
     box-shadow: 0 0 20px rgb(154, 59, 255);
-    transition: background-color 0.3s, font-size 0.3s, border-radius 0.2s ease, border 0.3s ease;
+    transition: background-color 0.3s, font-size 0.3s, border-radius 0.2s ease, border 0.3s ease, box-shadow 0.3s ease;
     margin: 0 10px;  
 }
 
