@@ -159,7 +159,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .footer-menu {
-        gap: 20px; /* Boutons du menu ajustés pour téléphone */
+        gap: 18px; /* Boutons du menu ajustés pour téléphone */
     }
     .version{
         height: 15px;
@@ -189,14 +189,14 @@ footer {
     cursor: pointer;
     font-size: 16px;
     box-shadow: 0 0 20px rgb(154, 59, 255);
-    transition: background-color 0.3s, font-size 0.3s, border-radius 0.2s ease, border 0.3s ease, box-shadow 0.3s ease;
+    transition: background-color 0.3s, font-size 0.3s, border-radius 0.2s ease, border 0.3s ease, box-shadow 0.5s ease;
     margin: 0 10px;  
 }
 
 .menu-button:hover {
     background-color: rgb(72, 27, 121);
     border-radius: 25px;
-    box-shadow: 4px 4px 20px rgb(126, 2, 85);
+    box-shadow: 4px 4px 1px rgb(38, 14, 63);
     font-size: 18px;
 }
 
@@ -224,14 +224,12 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100%;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    box-sizing: border-box;
 }
