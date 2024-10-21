@@ -159,7 +159,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .footer-menu {
-        gap: 18px; /* Boutons du menu ajustés pour téléphone */
+        gap: 10px; /* Boutons du menu ajustés pour téléphone */
     }
     .version{
         height: 15px;
