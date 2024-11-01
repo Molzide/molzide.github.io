@@ -139,8 +139,10 @@ h2{
     justify-content: center;
     align-items: center;
     display: flex;
+    margin: -20px 0;
     height: 30px;
     width: 63px; /* Mettre à jour lorsque la version possède un caractère supplémentaire */
+    transition: font-size 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
 }
 
 footer {
@@ -155,27 +157,26 @@ footer {
     display: flex;
     gap: 40px;
     justify-content: center;
+    transition: 0.3s gap ease-in;
 }
 
 @media only screen and (max-width: 768px) {
     .footer-menu {
         gap: 10px; /* Boutons du menu ajustés pour téléphone */
     }
-    .version{
+    .version {
         height: 15px;
         width: 32px; /* Mettre à jour lorsque la version possède un caractère supplémentaire #TELEPHONE# */
         font-size: 10px; /* idem */
-        justify-content: right;
-        font-family: "Lucida Console", "Courier New", monospace;
-        position: fixed;
-        color: rgb(255, 235, 59);
-        background: rgb(154, 59, 255);
-        border-radius: 20px;
-        box-shadow: 0px 0px 20px rgb(154, 59, 255);
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        display: flex;
+    }
+    .menu-button {
+        font-size: 11px !important;
+    }
+    .menu-button:hover {
+        background-color: rgb(72, 27, 121);
+        border-radius: 25px;
+        box-shadow: 4px 4px 1px rgb(38, 14, 63);
+        font-size: 13px !important;
     }
 }
 
