@@ -209,7 +209,7 @@ footer {
     width: 90%; 
     height: 90%;
     font-family: "Lucida Console", "Courier New", monospace;
-    background-image: url("background.gif");
+    background-image: url("background.webp");
     margin: 0;
     border-radius: 20px;
     overflow: hidden;
