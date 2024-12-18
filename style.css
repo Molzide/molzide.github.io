@@ -171,6 +171,9 @@ footer {
         height: 15px;
         width: 32px; /* Mettre à jour lorsque la version possède un caractère supplémentaire #TELEPHONE# */
         font-size: 10px; /* idem */
+        margin-top: 5px !important;
+        margin-right: 25px !important;
+        z-index: -1;
     }
     .menu-button {
         font-size: 11px !important;
