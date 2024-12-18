@@ -1,19 +1,20 @@
+.comfortaa-classic {
+  font-family: "Comfortaa", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 h1{
     font-weight: bold;
-    color: rgb(255, 235, 59);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px #bebebe;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .helas{
-    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-}
-.magiclogopng {
-    width: 90px;
-    height: 90px;
-    margin-right: 10px;
-    display: block;
-    margin: 0 auto;
+    font-family: "Comfortaa", serif;
 }
 
 h2{
@@ -50,11 +51,11 @@ h2{
 }
 
 .discord{
-    background-color: rgba(44, 44, 137, 0.91);
-    box-shadow: 0 0 20px rgb(44, 44, 137);
+    background-color: rgba(23, 23, 70, 0.91);
+    box-shadow: 0 0 20px rgb(23, 23, 70);
     border-radius: 12px !important;
     border: 0;
-    color: white;
+    color: #bebebe;
     padding: 10px 20px;
     width: 300px;
     height: 100px;
@@ -64,8 +65,8 @@ h2{
     margin-bottom: 25px;
 }
 .discord:hover {
-    background-color: rgba(28, 28, 89, 0.91);
-    box-shadow: 10px 10px 1px rgb(44, 44, 137);
+    background-color: rgba(15, 15, 46, 0.91);
+    box-shadow: 10px 10px 1px rgb(23, 23, 70);
     width: 330px;
     height: 110px;
 }
@@ -74,6 +75,7 @@ h2{
     height: 90px;
     margin-right: 10px;
     vertical-align: middle;
+    filter: brightness(50%);
     transition: width 0.3s ease, height 0.3s ease;
 }
 .discord:hover img.btn-icon {
@@ -83,16 +85,16 @@ h2{
 
 .discord span {
     display: inline-block;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Comfortaa", serif;
     font-size: 28px;
 }
 
 .youtube{
-    background-color: rgba(148, 18, 18, 0.906);
-    box-shadow: 0 0 20px rgb(148, 18, 18);
+    background-color: rgba(52, 7, 7, 0.906);
+    box-shadow: 0 0 20px rgb(40, 5, 5);
     border-radius: 12px !important;
     border: 0;
-    color: white;
+    color: #bebebe;
     width: 300px;
     height: 100px;
     padding: 10px 20px;
@@ -102,8 +104,8 @@ h2{
     margin-bottom: 25px;
 }
 .youtube:hover {
-    background-color: rgba(88, 11, 11, 0.906);
-    box-shadow: 10px 10px 1px rgb(148, 18, 18);
+    background-color: rgba(52, 7, 7, 0.906);
+    box-shadow: 10px 10px 1px rgb(40, 5, 5);
     width: 330px;
     height: 110px;
 }
@@ -113,6 +115,7 @@ h2{
     height: 90px;
     margin-right: 10px;
     vertical-align: middle;
+    filter: brightness(50%);
     transition: width 0.3s ease, height 0.3s ease;
 }
 .youtube:hover img.btn-icon2 {
@@ -122,19 +125,19 @@ h2{
 
 .youtube span {
     display: inline-block;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Comfortaa", serif;
     font-size: 28px;
 }
 
 .version {
     justify-content: right;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Comfortaa", serif;
     position: fixed;
     font-size: 20px;
-    color: rgb(255, 235, 59);
-    background: rgb(154, 59, 255);
+    color: #bebebe;
+    background: rgb(10, 0, 40);
     border-radius: 20px;
-    box-shadow: 0px 0px 20px rgb(154, 59, 255);
+    box-shadow: 0px 0px 20px rgb(10, 0, 40);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -173,55 +176,55 @@ footer {
         font-size: 11px !important;
     }
     .menu-button:hover {
-        background-color: rgb(72, 27, 121);
+        background-color: rgb(10, 0, 40);
         border-radius: 25px;
-        box-shadow: 4px 4px 1px rgb(38, 14, 63);
+        box-shadow: 4px 4px 1px rgb(10, 0, 40);
         font-size: 13px !important;
     }
 }
 
 .menu-button {
-    background-color: rgb(154, 59, 255);
-    color: rgb(255, 235, 59);
-    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: rgb(20, 0, 80);
+    color: #bebebe;
+    font-family: "Comfortaa", serif;
     padding: 10px 20px;
     border: none;
     border-radius: 15px;
     cursor: pointer;
     font-size: 16px;
-    box-shadow: 0 0 20px rgb(154, 59, 255);
+    box-shadow: 0 0 20px rgb(20, 0, 80);
     transition: background-color 0.3s, font-size 0.3s, border-radius 0.2s ease, border 0.3s ease, box-shadow 0.5s ease;
     margin: 0 10px;  
 }
 
 .menu-button:hover {
-    background-color: rgb(72, 27, 121);
+    background-color: rgb(10, 0, 40);
     border-radius: 25px;
-    box-shadow: 4px 4px 1px rgb(38, 14, 63);
+    box-shadow: 4px 4px 1px rgb(10, 0, 40);
     font-size: 18px;
 }
 
 .menu-button:active {
-    background-color: rgb(154, 59, 255);
+    background-color: rgb(10, 0, 40);
 }
 
 .container{
     width: 90%; 
     height: 90%;
-    font-family: "Lucida Console", "Courier New", monospace;
-    background-image: url("background.webp");
+    font-family: "Comfortaa", serif;
+    background-image: url("background.jpg");
     margin: 0;
+    margin-top: 10px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 0px 100px rgb(154, 59, 255);
+    box-shadow: 0px 0px 100px rgb(10, 0, 40);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 body{
-    background: linear-gradient(#e66465, #fff700);
-    background-image: url(background.jpg);
+    font-family: "Comfortaa", serif;
+    background-image: url(background-cc.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,4 +236,15 @@ body{
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+}
+body::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.95) 100%);
+    pointer-events: none;
+    position: fixed;
+    z-index: -1;
 }
