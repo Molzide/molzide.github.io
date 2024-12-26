@@ -1,244 +1,12 @@
-.comfortaa-classic {
-  font-family: "Comfortaa", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-h1{
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 15px #bebebe;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.helas{
-    font-family: "Comfortaa", serif;
-}
-
-h2{
-    font-weight: normal;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.linksh2 {
-    animation: clignoter 1s infinite;
-}
-
-@keyframes clignoter {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
-
-.discordEmplacement{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.youtubeLogo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.discord{
-    background-color: rgba(23, 23, 70, 0.91);
-    box-shadow: 0 0 20px rgb(23, 23, 70);
-    border-radius: 12px !important;
-    border: 0;
-    color: #bebebe;
-    padding: 10px 20px;
-    width: 300px;
-    height: 100px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-out, width 0.3s ease, height 0.3s ease, box-shadow 0.5s ease;
-    margin-bottom: 25px;
-}
-.discord:hover {
-    background-color: rgba(15, 15, 46, 0.91);
-    box-shadow: 10px 10px 1px rgb(23, 23, 70);
-    width: 330px;
-    height: 110px;
-}
-.discord img.btn-icon {
-    width: 90px;
-    height: 90px;
-    margin-right: 10px;
-    vertical-align: middle;
-    filter: brightness(50%);
-    transition: width 0.3s ease, height 0.3s ease;
-}
-.discord:hover img.btn-icon {
-    width: 100px;
-    height: 100px;
-}
-
-.discord span {
-    display: inline-block;
-    font-family: "Comfortaa", serif;
-    font-size: 28px;
-}
-
-.youtube{
-    background-color: rgba(52, 7, 7, 0.906);
-    box-shadow: 0 0 20px rgb(40, 5, 5);
-    border-radius: 12px !important;
-    border: 0;
-    color: #bebebe;
-    width: 300px;
-    height: 100px;
-    padding: 10px 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-out, width 0.3s ease, height 0.3s ease, box-shadow 0.5s ease;
-    margin-bottom: 25px;
-}
-.youtube:hover {
-    background-color: rgba(52, 7, 7, 0.906);
-    box-shadow: 10px 10px 1px rgb(40, 5, 5);
-    width: 330px;
-    height: 110px;
-}
-
-.youtube img.btn-icon2 {
-    width: 90px;
-    height: 90px;
-    margin-right: 10px;
-    vertical-align: middle;
-    filter: brightness(50%);
-    transition: width 0.3s ease, height 0.3s ease;
-}
-.youtube:hover img.btn-icon2 {
-    width: 100px;
-    height: 100px;
-}
-
-.youtube span {
-    display: inline-block;
-    font-family: "Comfortaa", serif;
-    font-size: 28px;
-}
-
-.version {
-    justify-content: right;
-    font-family: "Comfortaa", serif;
-    position: fixed;
-    font-size: 20px;
-    color: #bebebe;
-    background: rgb(10, 0, 40);
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px rgb(10, 0, 40);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: -20px 0;
-    height: 30px;
-    width: 63px; /* Mettre à jour lorsque la version possède un caractère supplémentaire */
-    transition: font-size 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
-}
-
-footer {
-    padding: 30px 0;
-    position: fixed;
-    bottom: 0;
-    border-radius: 12px;
-    width: 90%;
-}
-
-.footer-menu {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    transition: 0.3s gap ease-in;
-}
-
-@media only screen and (max-width: 768px) {
-    .footer-menu {
-        gap: 10px; /* Boutons du menu ajustés pour téléphone */
-    }
-    .version {
-        height: 15px;
-        width: 32px; /* Mettre à jour lorsque la version possède un caractère supplémentaire #TELEPHONE# */
-        font-size: 10px; /* idem */
-        margin-top: 5px !important;
-        margin-right: 25px !important;
-        z-index: -1;
-    }
-    .menu-button {
-        font-size: 11px !important;
-    }
-    .menu-button:hover {
-        background-color: rgb(10, 0, 40);
-        border-radius: 25px;
-        box-shadow: 4px 4px 1px rgb(10, 0, 40);
-        font-size: 13px !important;
-    }
-}
-
-.menu-button {
-    background-color: rgb(20, 0, 80);
-    color: #bebebe;
-    font-family: "Comfortaa", serif;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    font-size: 16px;
-    box-shadow: 0 0 20px rgb(20, 0, 80);
-    transition: background-color 0.3s, font-size 0.3s, border-radius 0.2s ease, border 0.3s ease, box-shadow 0.5s ease;
-    margin: 0 10px;  
-}
-
-.menu-button:hover {
-    background-color: rgb(10, 0, 40);
-    border-radius: 25px;
-    box-shadow: 4px 4px 1px rgb(10, 0, 40);
-    font-size: 18px;
-}
-
-.menu-button:active {
-    background-color: rgb(10, 0, 40);
-}
-
-.container{
-    width: 90%; 
-    height: 90%;
-    font-family: "Comfortaa", serif;
-    background-image: url("background.jpg");
-    margin: 0;
-    margin-top: 10px;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0px 0px 100px rgb(10, 0, 40);
-    background-size: cover;
+body {
+    background-image: url(wp.jpg);
     background-position: center;
     background-repeat: no-repeat;
-}
-body{
-    font-family: "Comfortaa", serif;
-    background-image: url(background-cc.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+    background-size: cover;
+    font-family: 'Cooper Black', serif;
+    color: rgb(58, 58, 58);
+    text-align: center;
 }
 body::before {
     content: "";
@@ -246,8 +14,71 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.95) 100%);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 65%, rgba(255, 255, 255, 0.7) 100%);
     pointer-events: none;
     position: fixed;
     z-index: -1;
+}
+
+h1 {
+    text-shadow: 0 0 25px rgb(255,255,255);
+}
+#helas_logo {
+    width: 500px;
+}
+
+#notepad{
+    image-rendering: pixelated;
+    width: 400px;
+}
+#textbox {
+    font-family: 'Consolas', 'Lucida Console', monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(99, 102, 104, 0.9) 0%, rgba(69, 71, 71, 0.9) 50.52%, rgba(52, 52, 52, 0.9) 53.12%, rgba(0, 0, 0, 0.9) 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3), inset 0px 2px 1px rgba(255, 255, 255, 0.3), inset 0px -2px 1px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+}
+.footer_links span {
+    filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 1));
+}
+
+.footer_icons {
+    width: 56px;
+    transition: 0.3s all ease-in-out;
+    filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 1));
+}
+.footer_icons:hover {
+    transform: scale(1.2);
 }
