@@ -21,22 +21,31 @@ body::before {
 }
 
 h1 {
-    text-shadow: 0 0 25px rgb(255,255,255);
+    text-shadow: 0 0 30px rgb(255,255,255);
 }
 #helas_logo {
     width: 500px;
+    pointer-events: none;
 }
 
 #notepad{
     image-rendering: pixelated;
     width: 400px;
 }
-#textbox {
-    font-family: 'Consolas', 'Lucida Console', monospace;
-    font-size: 16px;
-    line-height: 1.5;
-    -webkit-font-smoothing: none;
-    -moz-osx-font-smoothing: grayscale;
+
+ul {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#cooltextlink {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: 0.3s all ease-in-out;
+}
+#cooltextlink:hover {
+    font-size: 20px;
 }
 
 footer {
