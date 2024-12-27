@@ -21,13 +21,26 @@ body::before {
     z-index: -1;
 }
 
+@media only screen and (max-width: 768px) {
+    #helas_logo {
+        width: 300px !important;
+        pointer-events: none;
+    }
+    ul {
+        margin-top: 50px !important;
+        font-size: 20px !important;
+    }
+}
+
 h1 {
     text-shadow: 0 0 30px rgb(255,255,255);
     font-size: 32px;
 }
 #helas_logo {
     width: 500px;
+    margin-top: 50px;
     pointer-events: none;
+    transition: 0.3s all ease-in-out;
 }
 
 #notepad{
@@ -39,9 +52,10 @@ ul {
     color: white;
     list-style-type: none;
     margin: 0;
-    margin-top: 75px;
+    margin-top: 50px;
     padding: 0;
     font-size: 24px;
+    transition: 0.3s all ease-in-out;
 }
 #cooltextlink {
     border: 0px;
