@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Cooper Black', serif;
+    font-size: 16px;
     color: rgb(58, 58, 58);
     text-align: center;
 }
@@ -22,6 +23,7 @@ body::before {
 
 h1 {
     text-shadow: 0 0 30px rgb(255,255,255);
+    font-size: 32px;
 }
 #helas_logo {
     width: 500px;
@@ -37,15 +39,19 @@ ul {
     color: white;
     list-style-type: none;
     margin: 0;
+    margin-top: 75px;
     padding: 0;
+    font-size: 24px;
 }
 #cooltextlink {
+    border: 0px;
+    border-radius: 8px;
     text-decoration: underline;
     text-decoration-style: dotted;
     transition: 0.3s all ease-in-out;
 }
 #cooltextlink:hover {
-    font-size: 20px;
+    background-color: rgba(100, 100, 100, 0.80);
 }
 
 footer {
