@@ -40,6 +40,22 @@ body::before {
     footer {
         gap: 50px !important;
     }
+    .thanks {
+        display: none;
+        border-radius: 15px;
+        background: linear-gradient(#FF34DD, #ff8fec);
+        width: 250px !important;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    label {
+        color: white;
+        background: linear-gradient(#FF34DD, #ff8fec);
+        border-radius: 15px;
+        padding: 10px;
+    }
 }
 
 h1 {
@@ -48,7 +64,6 @@ h1 {
 }
 #helas_logo {
     width: 500px;
-    margin-top: 50px;
     pointer-events: none;
     transition: 0.3s all ease-in-out;
 }
