@@ -1,14 +1,21 @@
+.caprasimo-regular {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
 body {
     background-image: url(wp.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Cooper Black', serif;
+    font-family: "Caprasimo", serif;
     font-size: 16px;
     color: rgb(58, 58, 58);
     text-align: center;
 }
+
 body::before {
     content: "";
     top: 0;
@@ -30,6 +37,9 @@ body::before {
         margin-top: 50px !important;
         font-size: 20px !important;
     }
+    footer {
+        gap: 50px !important;
+    }
 }
 
 h1 {
@@ -43,20 +53,41 @@ h1 {
     transition: 0.3s all ease-in-out;
 }
 
-#notepad{
-    image-rendering: pixelated;
-    width: 400px;
-}
-
 ul {
     color: white;
     list-style-type: none;
     margin: 0;
     margin-top: 50px;
     padding: 0;
-    font-size: 24px;
+    font-size: 20px;
     transition: 0.3s all ease-in-out;
 }
+
+.thanks {
+    display: none;
+    border-radius: 15px;
+    background: linear-gradient(#FF34DD, #ff8fec);
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    color: white;
+    background: linear-gradient(#FF34DD, #ff8fec);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+input[type="checkbox"]:checked + label + .thanks {
+    display: block;
+}
+
 #cooltextlink {
     border: 0px;
     border-radius: 8px;
@@ -108,6 +139,11 @@ a {
     transition: 0.3s all ease-in-out;
     filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 1));
 }
+
+.footer_icons img { 
+    pointer-events: none;
+}
+
 .footer_icons:hover {
     transform: scale(1.2);
 }
