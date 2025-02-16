@@ -5,7 +5,7 @@
   }  
 
 body {
-    background-image: url(wp.webp);
+    background-image: url(wp.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,15 +40,6 @@ body::before {
     footer {
         gap: 50px !important;
     }
-    .thanks {
-        display: none;
-        border-radius: 15px;
-        background: linear-gradient(#FF34DD, #ff8fec);
-        width: 250px !important;
-        margin: 0 auto;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
     
     label {
         color: white;
@@ -68,52 +59,13 @@ h1 {
     transition: 0.3s all ease-in-out;
 }
 
-ul {
-    color: white;
-    list-style-type: none;
-    margin: 0;
-    margin-top: 50px;
-    padding: 0;
-    font-size: 20px;
-    transition: 0.3s all ease-in-out;
-}
-
-.thanks {
-    display: none;
-    border-radius: 15px;
-    background: linear-gradient(#FF34DD, #ff8fec);
-    width: 400px;
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-input[type="checkbox"] {
-    display: none;
-}
-
 label {
     color: white;
-    background: linear-gradient(#FF34DD, #ff8fec);
+    background: linear-gradient(rgba(255, 143, 236, 0.5), rgb(255, 52, 221, 0.5));
+    filter: drop-shadow(0 0 20px #ffffff);
     border-radius: 15px;
     padding: 10px;
 }
-
-input[type="checkbox"]:checked + label + .thanks {
-    display: block;
-}
-
-#cooltextlink {
-    border: 0px;
-    border-radius: 8px;
-    text-decoration: underline;
-    text-decoration-style: dotted;
-    transition: 0.3s all ease-in-out;
-}
-#cooltextlink:hover {
-    background-color: rgba(100, 100, 100, 0.80);
-}
-
 footer {
     display: flex;
     justify-content: center;
@@ -129,6 +81,28 @@ footer {
     bottom: 0;
     color: white;
     overflow: hidden;
+}
+#loginstate {
+    color: #ffffff;
+    background: linear-gradient(rgba(255, 143, 236, 0.5), rgb(255, 52, 221, 0.5));
+    filter: drop-shadow(0 0 20px #ffffff);
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 15px;
+}
+#loginstate img {
+    filter: drop-shadow(0 0 20px rgb(255, 255, 255));
+    display: inline-block;
+    vertical-align: middle;
+}
+#usernameshow {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: #ffffff;
+    filter: drop-shadow(0 0 20px #ffffff);
 }
 
 a {
